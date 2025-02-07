@@ -1,0 +1,24 @@
+{
+  "name": "node-api-auth0-userhub",
+  "version": "1.0.0",
+  "description": "A Node.js API that uses Auth0 for authentication and manages billing through UserHub.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@userhub/sdk": "^0.7.0",
+    "auth0": "^2.44.1",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.2",
+    "express-openid-connect": "^2.17.1",
+    "express-session": "^1.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
